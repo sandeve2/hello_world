@@ -1,0 +1,72 @@
+# https://dart.dev/guides/libraries/private-files
+# Created by https://www.toptal.com/developers/gitignore/api/flutter,dart
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configurations and tasks you actually
+# want to keep. Some extensions however generate their own files or folders
+# (e.g. Microsoft Python extension creates a __pycache__ folder, or the 
+# Dart extension creates a .dart_tool folder).
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/GeneratedConfig.xcconfig
+**/ios/Flutter/ephemeral/
+**/macos/Flutter/ephemeral/
+**/android/flutter_assets/
+**/android/app/src/main/res/values/strings.xml
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will regenerate these files
+android/key.properties
+android/local.properties
+android/app/google-services.json
+android/.gradle
+android/app/app.iml
+android/hello_world_android.iml
+android/build/
+android/app/build/
+
+# iOS/macOS related
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/ServiceDefinitions.json
+macos/Pods/
+macos/.symlinks/
+macos/Flutter/Generated.xcconfig
+macos/Flutter/flutter_export_environment.sh
+
+# Temporary GitHub CLI files
+gh_2.40.1_linux_amd64/
+gh.tar.gz
